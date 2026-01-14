@@ -12,7 +12,7 @@
     display: none;
 }
     .header__title {
-        -webkit-text-stroke-color: transparent;
+        -webkit-text-stroke: transparent;
     }
 
 @media (prefers-color-scheme: light) {
