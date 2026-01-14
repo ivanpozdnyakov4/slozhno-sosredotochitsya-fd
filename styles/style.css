@@ -146,7 +146,7 @@
     line-height: 23.4px;
 }
 
-.page__section{
+.page__section {
     margin-block-start: 50px;
 }
 
@@ -235,9 +235,10 @@
 }
 
 @media (width >= 768px) {
-    .header__title  {
+    .header__title {
         align-self: start;
         margin-inline-start: -20px;
+        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
     }
 
     .page {
@@ -251,10 +252,6 @@
         min-width: 728px;
         min-height: 984px;
         height: 100vh;
-    }
-
-    .header__title {
-        font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)
     }
 
     .header__subtitle {
