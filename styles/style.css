@@ -328,9 +328,6 @@
     }
 
     .footer {
-        height: 100vh;
-        min-width: 728px;
-        max-height: 984px;
         margin: 20px;
     }
 }
