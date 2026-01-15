@@ -11,7 +11,7 @@
     display: grid;
     grid-template-rows: 1fr min-content 1fr;
     align-items: center;
-    min-height: 668px;
+    max-height: 648px;
     height: 100vh;
     margin: 10px;
 }
@@ -228,6 +228,8 @@
     justify-content: center;
     min-width: 355px;
     min-height: 648px;
+    margin: 10px;
+    margin-block-start: 50px;
 }
 
 .footer__title {
@@ -260,8 +262,6 @@
         margin-inline-start: 363px;
     }
 
-    .header__theme-menu {
-    }
 
     .footer__title {
         align-self: center;
@@ -278,6 +278,7 @@
         grid-auto-flow: dense;
         gap: 20px;
         max-height: 780px;
+        margin-block-end: 80px;
     }
 
     .gallery__image:nth-child(1) {
@@ -332,7 +333,6 @@
         height: 100vh;
         min-width: 728px;
         max-height: 984px;
-        margin-block-start: 80px;
         margin: 20px;
     }
 }
@@ -347,7 +347,6 @@
     .header__theme-menu {
         justify-self: center;
         align-self: start;
-        margin-block-start: -5px;
     }
 
     .header__theme-menu-list {
@@ -383,6 +382,8 @@
     }
 
     .footer {
+        height: 100vh;
+        min-width: 984px;
         max-height: 728px;
     }
 }
