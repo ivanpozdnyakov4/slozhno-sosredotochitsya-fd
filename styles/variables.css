@@ -3,7 +3,7 @@
     --back-img: url("../images/cover-image-dark.png");
     --text-color: #F1B2CE;
     --text-title-color: #FF0070;
-    --main-font: "IBM Plex Mono";
+    --main-font: "IBM Plex Mono", sans-serif;
     --accent-color: #FF0070;
     --hover-color: rgba(255, 0, 112, 0.40);
     --header-title-color: #DB00FF;

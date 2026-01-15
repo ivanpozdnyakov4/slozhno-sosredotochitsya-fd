@@ -8,7 +8,7 @@
     --header-title-color: #FFC2E6;;
 }
 
-    .header__rec {
+    .theme-light .header__rec {
     display: none;
 }
     .header__title {
