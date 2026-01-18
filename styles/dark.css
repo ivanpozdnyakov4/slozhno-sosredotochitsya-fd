@@ -7,3 +7,7 @@
     --text-title-color: #FF0070;
     --header-title-color: #DB00FF;
 }
+
+.theme-dark .header__rec {
+    display: block;
+}
