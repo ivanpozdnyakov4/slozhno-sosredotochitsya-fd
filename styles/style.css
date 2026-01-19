@@ -290,10 +290,8 @@
 
     .gallery {
         grid-template-columns: repeat(3, 1fr) ;
-        grid-template-rows: repeat(3, 1fr);
         grid-auto-flow: dense;
         gap: 20px;
-        max-height: 780px;
         margin-block-end: 60px;
     }
 
@@ -402,7 +400,4 @@
         grid-template-columns: min-content 1fr;
     }
 
-    .gallery__section {
-        margin-block-end: 330px;
-    }
 }

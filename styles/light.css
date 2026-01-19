@@ -25,4 +25,8 @@
         --text-title-color: #353430;
         --header-title-color: #FFC2E6;
     }
+
+    .header__rec {
+        display: none;
+    }
 }
